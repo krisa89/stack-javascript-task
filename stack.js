@@ -1,7 +1,7 @@
 class Stack {
   #stack = [];
-  constructor(...params) {
-    this.#stack = params;
+  constructor(...elements) {
+    this.#stack = elements;
   }
 
   get size() {
